@@ -65,8 +65,21 @@ body {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	
+  background: #fff url("../images/header-bike.jpg") no-repeat center center;
 }
 
+.jumbotron h1 {
+
+color: #fff;
+}
+
+.jumbotron p {
+
+	color: #fff;
+	}
+
+	
 /* Headings */
 .heading-underline {
 	position: relative;
@@ -92,11 +105,21 @@ body {
 /* Article */
 .article {
 	margin-bottom: 2em;
+	
 }
+
 
 .article-title {
 	margin-bottom: 0.5em;
 	font-weight: 700;
+	
+	
+}
+
+
+.article-lead {
+	margin-bottom: 0.5em;
+	float: right;
 }
 
 .article-read-more a {
